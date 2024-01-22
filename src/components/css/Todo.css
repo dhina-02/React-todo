@@ -1,50 +1,61 @@
-.todo{
-    width: 600px;
-    min-height: 732px;
-    border-radius: 20px;
-    background: #fff;
-    margin: auto;
-    margin-top: 174px;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    padding: 0 44px;
-    padding-bottom: 30px;
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* todo styles */
+.todo {
+  width: 600px;
+  min-height: 732px;
+  border-radius: 20px;
+  background-image: linear-gradient(160deg, #817911 0%, #ff7605f1 100%);
+  margin: auto;
+  margin-top: 174px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 44px;
+  padding-bottom: 30px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
 }
-.todo-header{
-    margin-top: 84px;
-    color: #393965;
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 34px;
+.todo-header {
+  font-size: 55px;
+  text-align: center;
+  margin: 20px;
+  font-weight: 500;
 }
-.todo-add{
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 35px;
+.todo-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
 }
-.todo-input{
-    border-radius: 50px;
-    background: #e4dfdf;
-    border: none;
-    outline: none;
-    width: 576px;
-    height: 80px;
-    padding-left: 35px;
-    font-size: 20px;
+.todo-input {
+  border-radius: 50px;
+  background: #e5e3e3;
+  box-shadow: 1px 3px 10px #292929a7;
+  border: none;
+  outline: none;
+  width: 576px;
+  height: 80px;
+  padding-left: 35px;
+  font-size: 20px;
 }
-.todo-add-btn{
-    border-radius: 50px;
-    background: #ffb03a;
-    width: 187px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -100px;
-    color: #fff;
-    font-size: 26px;
-    font-weight: 600;
-    cursor: pointer;
+.todo-add-btn {
+  border-radius: 0px 30px 30px 0px;
+  box-shadow: 5px 2px 5px #2929297d;
+  background: #fa3030;
+  width: 127px;
+  height: 82px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -100px;
+  font-size: 26px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.todo-add-btn:hover {
+  background: #f94242;
 }
